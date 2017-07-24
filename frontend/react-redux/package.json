@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "Serverless book todos client",
   "scripts": {
-    "postinstall": "npm install",
     "build": "webpack",
     "start": "webpack-dev-server --hot --inline"
   },
@@ -25,7 +24,6 @@
     "babel-preset-stage-0": "^6.5.0",
     "file-loader": "^0.9.0",
     "react-hot-loader": "^3.0.0-beta.3",
-    "webpack": "^1.13.2",
     "webpack-dev-server": "^1.15.1"
   },
   "dependencies": {
@@ -39,6 +37,7 @@
     "redux": "^3.6.0",
     "redux-logger": "^2.6.1",
     "redux-thunk": "^2.1.0",
+    "webpack": "^1.13.2",
     "whatwg-fetch": "^1.0.0"
   }
 }
